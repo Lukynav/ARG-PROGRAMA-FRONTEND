@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ButtonPrimaryComponent } from './buttons/button-primary/button-primary.component';
 import { ButtonSecundaryComponent } from './buttons/button-secundary/button-secundary.component';
+import { SkillsAndServicesComponent } from './skills-and-services/skills-and-services.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ButtonSecundaryComponent } from './buttons/button-secundary/button-secu
     HeaderComponent,
     ButtonPrimaryComponent,
     ButtonSecundaryComponent,
+    SkillsAndServicesComponent,
   ],
   imports: [
     BrowserModule,
