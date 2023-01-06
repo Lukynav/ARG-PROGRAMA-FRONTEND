@@ -1,12 +1,12 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core'
+import { BrowserModule } from '@angular/platform-browser'
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { ButtonPrimaryComponent } from './buttons/button-primary/button-primary.component';
-import { ButtonSecundaryComponent } from './buttons/button-secundary/button-secundary.component';
-import { SkillsAndServicesComponent } from './skills-and-services/skills-and-services.component';
+import { AppRoutingModule } from './app-routing.module'
+import { AppComponent } from './app.component'
+import { HeaderComponent } from './header/header.component'
+import { ButtonPrimaryComponent } from './buttons/button-primary/button-primary.component'
+import { ButtonSecundaryComponent } from './buttons/button-secundary/button-secundary.component'
+import { SkillsAndServicesComponent } from './skills-and-services/skills-and-services.component'
 
 @NgModule({
   declarations: [
@@ -14,13 +14,10 @@ import { SkillsAndServicesComponent } from './skills-and-services/skills-and-ser
     HeaderComponent,
     ButtonPrimaryComponent,
     ButtonSecundaryComponent,
-    SkillsAndServicesComponent,
+    SkillsAndServicesComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
