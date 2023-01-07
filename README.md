@@ -7,7 +7,7 @@ It is a practical online course created in Argentina by CESSI.
 
 The portafolio frontend was powered by [ANGULAR](https://angular.io) version 15.0.0.
 
-The styles was developed in Tailwindcss, and this used an adaption of [PEGASUS](https://pegasusdesignsystem.com) design system 
+The styles was developed in Tailwindcss, and this used an adaption of [FLOWBITE](https://flowbite.com/) design system 
 ## 🚀 Installation
 
 Install my project with npm
