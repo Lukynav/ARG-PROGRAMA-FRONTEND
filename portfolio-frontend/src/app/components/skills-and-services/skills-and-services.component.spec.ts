@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing'
+import { CardComponent } from '../card/card.component'
 
 import { SkillsAndServicesComponent } from './skills-and-services.component'
 
@@ -8,7 +9,7 @@ describe('SkillsAndServicesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [SkillsAndServicesComponent]
+      declarations: [SkillsAndServicesComponent, CardComponent]
     }).compileComponents()
 
     fixture = TestBed.createComponent(SkillsAndServicesComponent)

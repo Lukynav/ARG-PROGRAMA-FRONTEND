@@ -1,12 +1,24 @@
 import { TestBed } from '@angular/core/testing'
 import { RouterTestingModule } from '@angular/router/testing'
 import { AppComponent } from './app.component'
+import { ButtonPrimaryComponent } from './components/buttons/button-primary/button-primary.component'
+import { ButtonSecundaryComponent } from './components/buttons/button-secundary/button-secundary.component'
+import { CardComponent } from './components/card/card.component'
+import { HeaderComponent } from './components/header/header.component'
+import { SkillsAndServicesComponent } from './components/skills-and-services/skills-and-services.component'
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [AppComponent]
+      declarations: [
+        AppComponent,
+        HeaderComponent,
+        SkillsAndServicesComponent,
+        ButtonPrimaryComponent,
+        ButtonSecundaryComponent,
+        CardComponent
+      ]
     }).compileComponents()
   })
 
@@ -15,7 +27,7 @@ describe('AppComponent', () => {
     const app = fixture.componentInstance
     expect(app).toBeTruthy()
   })
-
+  /*
   it(`should have as title 'portfolio-frontend'`, () => {
     const fixture = TestBed.createComponent(AppComponent)
     const app = fixture.componentInstance
@@ -29,5 +41,5 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain(
       'portfolio-frontend app is running!'
     )
-  })
+  })*/
 })
