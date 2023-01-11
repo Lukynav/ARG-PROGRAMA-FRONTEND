@@ -1,5 +1,7 @@
 # PORTFOLIO FRONTEND
 
+[![Revision the integrity of the project](https://github.com/Lukynav/ARG-PROGRAMA-FRONTEND/actions/workflows/main.yml/badge.svg)](https://github.com/Lukynav/ARG-PROGRAMA-FRONTEND/actions/workflows/main.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This project was developed during the #YoProgramo program.
 
 It is a practical online course created in Argentina by CESSI.
