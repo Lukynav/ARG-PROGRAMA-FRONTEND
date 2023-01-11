@@ -6,6 +6,7 @@ import { ButtonSecundaryComponent } from '../buttons/button-secundary/button-sec
 import { CardComponent } from '../card/card.component'
 import { HeaderComponent } from '../header/header.component'
 import { SkillsAndServicesComponent } from '../skills-and-services/skills-and-services.component'
+import { NavComponent } from '../nav/nav/nav.component'
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -17,7 +18,8 @@ describe('AppComponent', () => {
         SkillsAndServicesComponent,
         ButtonPrimaryComponent,
         ButtonSecundaryComponent,
-        CardComponent
+        CardComponent,
+        NavComponent
       ]
     }).compileComponents()
   })

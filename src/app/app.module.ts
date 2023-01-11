@@ -8,6 +8,7 @@ import { ButtonPrimaryComponent } from './components/buttons/button-primary/butt
 import { ButtonSecundaryComponent } from './components/buttons/button-secundary/button-secundary.component'
 import { SkillsAndServicesComponent } from './components/skills-and-services/skills-and-services.component'
 import { CardComponent } from './components/card/card.component'
+import { NavComponent } from './components/nav/nav/nav.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardComponent } from './components/card/card.component'
     ButtonPrimaryComponent,
     ButtonSecundaryComponent,
     SkillsAndServicesComponent,
-    CardComponent
+    CardComponent,
+    NavComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
