@@ -1,7 +1,9 @@
-import { Component } from '@angular/core'
+import { Component, Input } from '@angular/core'
 
 @Component({
   selector: 'app-button-primary',
   templateUrl: './button-primary.component.html'
 })
-export class ButtonPrimaryComponent {}
+export class ButtonPrimaryComponent {
+  @Input() content?: string = 'Primary button'
+}
