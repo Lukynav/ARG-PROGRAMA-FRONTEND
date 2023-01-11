@@ -9,6 +9,7 @@ import { ButtonSecundaryComponent } from './components/buttons/button-secundary/
 import { SkillsAndServicesComponent } from './components/skills-and-services/skills-and-services.component'
 import { CardComponent } from './components/card/card.component'
 import { NavComponent } from './components/nav/nav/nav.component'
+import { AboutComponent } from './components/about/about.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavComponent } from './components/nav/nav/nav.component'
     ButtonSecundaryComponent,
     SkillsAndServicesComponent,
     CardComponent,
-    NavComponent
+    NavComponent,
+    AboutComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
