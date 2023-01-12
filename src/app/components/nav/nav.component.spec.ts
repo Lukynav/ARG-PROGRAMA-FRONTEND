@@ -1,4 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing'
+import { ButtonPrimaryComponent } from '../buttons/button-primary/button-primary.component'
+import { ButtonSecundaryComponent } from '../buttons/button-secundary/button-secundary.component'
 
 import { NavComponent } from './nav.component'
 
@@ -8,7 +10,11 @@ describe('NavComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NavComponent]
+      declarations: [
+        NavComponent,
+        ButtonPrimaryComponent,
+        ButtonSecundaryComponent
+      ]
     }).compileComponents()
 
     fixture = TestBed.createComponent(NavComponent)
