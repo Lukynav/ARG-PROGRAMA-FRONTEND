@@ -1,10 +1,12 @@
 import { TestBed } from '@angular/core/testing'
 import { RouterTestingModule } from '@angular/router/testing'
+import { AboutComponent } from './components/about/about.component'
 import { AppComponent } from './components/app/app.component'
 import { ButtonPrimaryComponent } from './components/buttons/button-primary/button-primary.component'
 import { ButtonSecundaryComponent } from './components/buttons/button-secundary/button-secundary.component'
 import { CardComponent } from './components/card/card.component'
 import { HeaderComponent } from './components/header/header.component'
+import { NavComponent } from './components/nav/nav.component'
 import { SkillsAndServicesComponent } from './components/skills-and-services/skills-and-services.component'
 
 describe('AppComponent', () => {
@@ -17,7 +19,9 @@ describe('AppComponent', () => {
         SkillsAndServicesComponent,
         ButtonPrimaryComponent,
         ButtonSecundaryComponent,
-        CardComponent
+        CardComponent,
+        NavComponent,
+        AboutComponent
       ]
     }).compileComponents()
   })

@@ -6,8 +6,8 @@ import { ButtonSecundaryComponent } from '../buttons/button-secundary/button-sec
 import { CardComponent } from '../card/card.component'
 import { HeaderComponent } from '../header/header.component'
 import { SkillsAndServicesComponent } from '../skills-and-services/skills-and-services.component'
-import { NavComponent } from '../nav/nav/nav.component'
 import { AboutComponent } from '../about/about.component'
+import { NavComponent } from '../nav/nav.component'
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -15,12 +15,12 @@ describe('AppComponent', () => {
       imports: [RouterTestingModule],
       declarations: [
         AppComponent,
+        NavComponent,
         HeaderComponent,
         SkillsAndServicesComponent,
         ButtonPrimaryComponent,
         ButtonSecundaryComponent,
         CardComponent,
-        NavComponent,
         AboutComponent
       ]
     }).compileComponents()

@@ -8,7 +8,7 @@ import { ButtonPrimaryComponent } from './components/buttons/button-primary/butt
 import { ButtonSecundaryComponent } from './components/buttons/button-secundary/button-secundary.component'
 import { SkillsAndServicesComponent } from './components/skills-and-services/skills-and-services.component'
 import { CardComponent } from './components/card/card.component'
-import { NavComponent } from './components/nav/nav/nav.component'
+import { NavComponent } from './components/nav/nav.component'
 import { AboutComponent } from './components/about/about.component'
 
 @NgModule({
