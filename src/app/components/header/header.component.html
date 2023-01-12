@@ -1,14 +1,15 @@
 <!--HEADER-->
-<header class="w-screen h-96 bg-gradient-to-r from-indigo-900 to-purple-900">
+<header class="w-screen h-screen bg-gradient-to-r from-black to-slate-900">
+  <app-nav></app-nav>
   <!--CONTENT CONTAINER-->
   <div class="max-w-7xl h-full m-auto grid grid-cols-1 md:grid-cols-2 items-center overflow-hidden gap-10 px-4 md:px-10">
 
     <!--PRESENTATION CONTAINER-->
     <div>
-      <p class="mb-3 font-light text-gray-100 text-center md:text-left">Hi there,</p>
-      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl text-center md:text-left">I'm Lucas</h1>
-      <p class="mb-3 text-teal-300 text-center md:text-left">FULL STACK DEVELOPER JUNIOR</p>
-      <p class="mb-3 font-light text-gray-100 text-center md:text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <h1 class="text-2xl text-gray-200 font-bold">Hi there,</h1>
+      <h2 class="text-white text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-red-200">I'm Lucas</h2>
+      <p class="mt-2 text-teal-300">FULL STACK DEVELOPER JUNIOR</p>
+      <p class="my-6 font-light text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquam at quod dolores commodi saepe facere ipsa et aliquid autem, veritatis exercitationem veniam fugit velit id cumque sequi excepturi nisi.</p>
 
       <!--BUTTONS-->
       <div class="mt-10 flex flex-col min-[311px]:flex-row gap-2 justify-center md:justify-start">
@@ -25,8 +26,15 @@
     </div>
 
     <!--PICTURE CONTAINER-->
-    <div class="hidden md:block w-full h-96 overflow-hidden">
-      <img class="opacity-50 object-cover w-full h-96" src="../../assets/Taieri.svg" alt="">
+    <div class="w-full h-full flex justify-center items-center">
+      <div class="w-80 h-80 bg-slate-800 rounded-3xl flex items-end">
+        <img src="../../../assets/memoji.png" class="" alt="">
+      </div>
+      <div class="relative shadow-md right-96 top-40 w-24 h-24 bg-gradient-to-br from-blue-300 to-teal-200 rounded-3xl"></div>
+      <div class="absolute right-36 top-32 w-32 h-32 bg-gradient-to-br from-purple-100 to-red-200 rounded-3xl"></div>
+      <div class="absolute shadow-md right-10 top-[-24px] w-48 h-48 bg-gradient-to-br from-purple-300 to-blue-200 rounded-3xl"></div>
+
     </div>  
+    
   </div>
 </header>
