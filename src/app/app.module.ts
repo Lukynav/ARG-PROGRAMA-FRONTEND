@@ -10,6 +10,8 @@ import { SkillsAndServicesComponent } from './components/skills-and-services/ski
 import { CardComponent } from './components/card/card.component'
 import { NavComponent } from './components/nav/nav.component'
 import { AboutComponent } from './components/about/about.component'
+import { ProjectsComponent } from './components/projects/projects.component'
+import { ContactComponent } from './components/contact/contact.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AboutComponent } from './components/about/about.component'
     SkillsAndServicesComponent,
     CardComponent,
     NavComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
